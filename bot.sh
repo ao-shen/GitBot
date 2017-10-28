@@ -18,6 +18,6 @@ do
 	git push
 	#echo Press Enter...
 	#read
-	timeout 5
+	ping -n 5 127.0.0.1 >nul
 done
 
